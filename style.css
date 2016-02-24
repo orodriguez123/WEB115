@@ -1,0 +1,31 @@
+body {
+    background: darkblue;
+    font-family: arial, helvetica, sans-serif;
+}
+
+#container {
+    background: #000099;
+    color: aqua;
+    width: 1000px;
+    min-height: 500px;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header {
+    padding: 10px;
+}
+
+main {
+    min-height: 400px;
+}
+
+footer {
+    padding: 10px;
+}
+
+h1 {
+    style=color: #0099ff;
+}

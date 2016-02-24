@@ -1,0 +1,141 @@
+body{
+    background-color: #ccffff;
+    font-family: arial, helvetica, sans-serif;
+    color: #424242;
+    padding: 5px;
+}
+
+heaader{
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    margin:0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    background: darkblue;
+    border: 5px solid transparent;
+    border-radius: 2px;
+    color: #ccffff;
+    display: inline-block;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1em;
+    letter-spacing: .1em;
+    margin: 5px;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition all 0.2s ease-in-out 0s;
+}
+
+nav a.current{
+    background: black none repeat scroll 0 0;
+}
+
+anv a:hover{
+    background: black none repeat scroll 0 0;
+    border-color: brown;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 80em;
+    padding: 15px;
+}
+p{
+    font-size: 1em;
+    line-height: 100%
+}
+
+.intro-parograph{
+    text-align: center;
+}
+
+/*code{
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    border-radius: 15px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+    display: inline-block;
+    padding: 0 6px;
+}*/
+
+footer{
+    text-align: center;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 75%;
+    display:block;
+}
+
+.float-grid figure{
+    width: 25%;
+    float: left;
+    margin: 0;
+}
+
+.float-grid figure:nth-of-type(4n+1) {
+    clear: left;
+}
+
+.column-grid .gallery {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    coulumns: 3;
+}
+
+.column-grid figure {
+    margin: 0 0 20px;
+    width: 100%;
+}
+.column-grid figure img {
+    border: 15px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+.caption-grid{
+    columns: 3 auto;
+}
+.caption-grid figure {
+    margin: 0 0 15px;
+    position: relative;
+    width: 100%;
+}
+.caption-grid figcaption {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 5px 5px;
+    bottom: 0;
+    color: #fff;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.caption-grid figure img {
+    border-width: 5px 5px 0;
+}
+.caption-grid figcaption, .caption-grid figure img {
+    border-color: #fff;
+    border-style: solid;
+    box-sizing: border-box;
